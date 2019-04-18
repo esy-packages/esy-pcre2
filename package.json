@@ -4,6 +4,12 @@
   "description": "Automake packaged for esy",
   "esy": {
     "buildsInSource": true,
+    "exportedEnv": {
+      "PKG_CONFIG_PATH": {
+        "scope": "global",
+        "val": "#{self.lib / 'pkgconfig'} $PKG_CONFIG_PATH"
+      }
+    },
     "build": [
       [
         "bash",
