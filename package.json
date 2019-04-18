@@ -1,0 +1,22 @@
+{
+  "name": "esy-pcre2",
+  "version": "2.10.33000",
+  "description": "Automake packaged for esy",
+  "esy": {
+    "buildsInSource": true,
+    "build": [
+      [
+        "bash",
+        "-c",
+        "#{os == 'windows' ? './configure --prefix=$cur__install --host x86_64-w64-mingw32 --disable-dependency-tracking' : './configure --prefix=$cur__install --disable-dependency-tracking'}"
+      ],
+      [
+        "make"
+      ],
+      [
+        "make",
+        "install"
+      ]
+    ]
+  }
+}
