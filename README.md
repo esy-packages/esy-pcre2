@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/prometheansacrifice/esy-packages/_apis/build/status/prometheansacrifice.esy-pcre2?branchName=master)](https://dev.azure.com/prometheansacrifice/esy-packages/_build/latest?definitionId=43&branchName=master)
+
 README file for PCRE2 (Perl-compatible regular expression library)
 ------------------------------------------------------------------
 
